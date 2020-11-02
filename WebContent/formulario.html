@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Datos</title>
+</head>
+<body>
+
+<center>
+<form action="Ficha" method="post">
+Introduzca su nombre:<input type="text" name="nombre"/>
+Edad:<input type="number" name="edad"/>
+Zona:<select name="zona">
+	<option value="centro">Madrid</option>
+	<option value="centro">Ávila</option>
+	<option value="sur">Sevilla</option>
+	<option value="norte">Santander</option>
+</select>
+<br><br>
+Temas:<br>
+<input type="checkbox" name="tema" value="historia">Historia<br>
+<input type="checkbox" name="tema" value="ciencias">Ciencias<br>
+<input type="checkbox" name="tema" value="cine">Cine<br><br><br>
+
+sexo:<input type="radio" name="sexo" value="Sr." checked>Hombre<br>
+	<input type="radio" name="sexo" value="Sra.">Mujer<br><br><br>
+	
+	<input type="submit" value="Enviar">
+
+</form>
+</center>
+</body>
+</html>
